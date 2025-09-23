@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: darkgreen;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: yellow;
+  border-bottom: 2px solid lightgreen;
+}
+
+/* Hero Section */
+.hero {
+  background: url("../images/banner.jpeg") no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: lightgreen;
+  color: darkgreen;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #90ee90;
+}
+
+/* About */
+.about {
+  padding: 3rem 2rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  color: darkgreen;
+}
+
+/* Services */
+.services {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 2rem;
+  color: darkgreen;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: darkgreen;
+}
+
+/* Contact */
+.contact {
+  padding: 3rem 2rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+  color: darkgreen;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px;
+  background: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: lightgreen;
+  color: darkgreen;
+}
+
+/* Footer */
+footer {
+  background: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
