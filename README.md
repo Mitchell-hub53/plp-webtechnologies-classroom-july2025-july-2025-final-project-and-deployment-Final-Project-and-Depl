@@ -1,90 +1,71 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🌱 AgriGrow - Online Seedling Delivery Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Hi there 👋, welcome to my project!  
+This is **AgriGrow**, a static, responsive, and interactive website I built for my **PLP Web Development Course Final Assignment**.  
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+The idea behind AgriGrow is simple: farmers should have an easy way to access quality seedlings, and this site demonstrates how such a business could operate online.  
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 📌 What the Website Does
+- Provides a **multi-page structure** with clear navigation (Home, About, Services, Contact).
+- Shows information about AgriGrow and the seedlings we deliver.
+- Has a **hero banner** with an agricultural backdrop.
+- Features **service cards** for Tomato, Cabbage, and Maize seedlings.
+- Includes a **contact form** so users can reach out.
+- Uses **JavaScript** for smooth scrolling and active link highlighting.
+- Is **mobile-responsive** and looks clean on all devices.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📂 Project Structure
+Here’s how I organized the files and folders:
 
-Before deployment, refactor your project to follow production-friendly practices:
+agrigrow/
+│
+├── index.html # Main HTML file
+├── css/
+│ └── style.css # Styling (colors, layout, responsiveness)
+├── js/
+│ └── script.js # JavaScript for interactivity
+└── images/ # Local image assets
+├── banner.jpeg
+├── tomato.jpeg
+├── cabbage.jpeg
+└── maize.jpeg
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
 
 ---
 
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+## 🎨 Tools & Technologies
+This project was built using:
+- **HTML5** → for semantic structure  
+- **CSS3** → for styling, responsiveness, and animations  
+- **JavaScript (Vanilla)** → for smooth scrolling and dynamic navbar  
+- **GitHub Pages** → for hosting and deployment  
 
 ---
 
-## Outcome
+## 🚀 Live Demo
+I deployed the project using GitHub Pages.  
+👉 [Live Website](https://your-username.github.io/agrigrow/)  
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+*(Replace `your-username` with my actual GitHub username once I publish it.)*
+
+---
+
+## 📸 Screenshots
+Here’s a quick preview of what the site looks like:
+
+### Hero Section
+![Hero Section](images/banner.jpeg)
+
+### Services
+![Seedlings](images/tomato.jpeg)
+
+
+📧 Contact
+
+If you’d like to connect, collaborate, or give feedback on this project:
+
+AgriGrow – Growing Tomorrow, Today 🌱
