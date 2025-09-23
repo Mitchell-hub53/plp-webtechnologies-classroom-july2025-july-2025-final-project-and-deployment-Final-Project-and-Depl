@@ -47,16 +47,13 @@ This project was built using:
 ---
 
 ## 🚀 Live Demo
-I deployed the project using GitHub Pages.  
-👉 [Live Website](https://your-username.github.io/agrigrow/)  
-
-*(Replace `your-username` with my actual GitHub username once I publish it.)*
+I deployed the project using GitHub Pages.
 
 ---
 
 ## 📸 Screenshots
 Here’s a quick preview of what the site looks like:
-
+![alt text](image.png)
 ### Hero Section
 ![Hero Section](images/banner.jpeg)
 
