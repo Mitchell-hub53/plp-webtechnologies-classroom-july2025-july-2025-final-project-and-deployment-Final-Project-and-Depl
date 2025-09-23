@@ -51,9 +51,7 @@ I deployed the project using GitHub Pages.
 
 ---
 
-## 📸 Screenshots
-Here’s a quick preview of what the site looks like:
-![alt text](image.png)
+
 ### Hero Section
 ![Hero Section](images/banner.jpeg)
 
